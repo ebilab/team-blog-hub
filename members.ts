@@ -47,7 +47,7 @@ export const members: Member[] = [
     githubUsername: "puremoru"
   },
   {
-    name: "ゑびや大食堂",
+    name: "wyebiya_restaurant",
     avatarSrc: "/avatars/wyebiya.jpeg",
     sources: [
       "https://note.com/ebiya_ise/rss",
