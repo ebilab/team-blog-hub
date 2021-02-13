@@ -2,56 +2,57 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    name: "CatNose",
-    role: "CTO",
-    bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
-    avatarSrc: "/avatars/catnose.jpg",
+    name: "saboyutaka",
+    role: "Tech Lead/Architect",
+    bio: "EBILAB TechLead,Architect/@geeoki2オーナー/@CODEBASE098スクール 講師 /Azure/Serverless/GraphQL/gRPC/Nuxt.js/Ruby/Rails/Laravel/Python/PowerBI/TOEIC850/沖縄在住/福岡出身/INTP",
     sources: [
-      "https://zenn.dev/catnose99/feed",
-      "https://medium.com/feed/@catnose99",
+      "https://qiita.com/saboyutaka/feed.atom"
     ],
-    includeUrlRegex: "medium.com|zenn.dev",
-    twitterUsername: "catnose99",
-    githubUsername: "catnose99",
-    websiteUrl: "https://catnose99.com",
+    avatarSrc: "/avatars/saboyutaka.jpg",
+    twitterUsername: "saboyutaka",
+    githubUsername: "saboyutaka"
   },
   {
-    name: "John Doe",
-    role: "SRE",
-    bio: "Site Reliability Engineer.",
-    avatarSrc: "/avatars/doe.jpg",
-    sources: ["https://note.com/catnose/rss"],
-    excludeUrlRegex: "n3a59e3cdd820",
-    twitterUsername: "catnose99",
+    name: "Ryo Nakamine",
+    role: "Engineer",
+    bio: "ゑびや / EBILAB Engineer / Azure Okinawa Base",
+    sources: [
+      "https://rnakamine.hatenablog.com/feed"
+    ],
+    avatarSrc: "/avatars/nakamine.jpg",
+    twitterUsername: "r_nakamine",
+    githubUsername: "rnakamine"
   },
   {
-    name: "Amanda",
-    role: "Frontend dev",
-    bio: "Frontend developer,",
-    avatarSrc: "/avatars/amanda.jpg",
-    sources: ["https://qiita.com/catnose99/feed.atom"],
-    twitterUsername: "catnose99",
+    name: "ひら@飲食系kaggler",
+    role: "ML Engineer",
+    bio: "雑魚expert 生まれ変わったらデータサイエンティストになりたい 漫画を書きます料理をします 93年生まれ北大物理卒 Kaggle Expert (銀メダル2銅メダル1)http://kaggle.com/hirayukis ブログhttp://hirasakanai.hatenablog.com 漫http://note.mu/hirayuki",
+    sources: [
+      "https://qiita.com/hirayuki/feed.atom",
+      "https://note.com/hirayuki/rss",
+    ],
+    avatarSrc: "/avatars/hirayuki.jpg",
+    twitterUsername: "hirasakanai",
+    githubUsername: "hirayukis"
   },
   {
-    name: "Takada Junji",
-    role: "Designer",
-    bio: "Designing all of the apps in Foo company.",
-    avatarSrc: "/avatars/junji.jpg",
-    sources: [],
+    name: "かわみつ",
+    role: "Web Engineer",
+    avatarSrc: "/avatars/kawamitsu.png",
+    sources: [
+      "https://zenn.dev/kaibuki0315/feed",
+      "https://qiita.com/kaibuki0315/feed.atom"
+    ],
+    twitterUsername: "kaibuki0315",
+    githubUsername: "puremoru"
   },
   {
-    name: "Ota Naoko",
-    role: "Researcher",
-    bio: "Some texts here",
-    avatarSrc: "/avatars/naoko.jpg",
-    sources: [],
-  },
-  {
-    name: "Alexandria",
-    role: "Tech Lead",
-    bio: "IT professional with 3 years of experience",
-    avatarSrc: "/avatars/alexandria.jpg",
-    sources: [],
+    name: "ゑびや大食堂",
+    avatarSrc: "/avatars/wyebiya.jpeg",
+    sources: [
+      "https://note.com/ebiya_ise/rss",
+    ],
+    bio: "伊勢神宮・内宮のすぐそばにある、ゑびや大食堂です。 http://www.ise-ebiya.com/ 店舗の改善をITで効率化しています。技術的な内容も記事にしていきます。 https://ebilab.jp/",
+    websiteUrl: "https://www.ise-ebiya.com/"
   },
 ];
