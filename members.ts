@@ -13,8 +13,8 @@ export const members: Member[] = [
     githubUsername: "saboyutaka"
   },
   {
-    name: "Ryo Nakamine",
-    role: "Engineer",
+    name: "rnakamine",
+    role: "Web Engineer",
     bio: "ゑびや / EBILAB Engineer / Azure Okinawa Base",
     sources: [
       "https://rnakamine.hatenablog.com/feed"
@@ -24,7 +24,7 @@ export const members: Member[] = [
     githubUsername: "rnakamine"
   },
   {
-    name: "ひら@飲食系kaggler",
+    name: "hirayuki",
     role: "ML Engineer",
     bio: "雑魚expert 生まれ変わったらデータサイエンティストになりたい 漫画を書きます料理をします 93年生まれ北大物理卒 Kaggle Expert (銀メダル2銅メダル1)http://kaggle.com/hirayukis ブログhttp://hirasakanai.hatenablog.com 漫http://note.mu/hirayuki",
     sources: [
@@ -36,7 +36,7 @@ export const members: Member[] = [
     githubUsername: "hirayukis"
   },
   {
-    name: "かわみつ",
+    name: "kaibuki0315",
     role: "Web Engineer",
     avatarSrc: "/avatars/kawamitsu.png",
     sources: [
