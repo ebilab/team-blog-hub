@@ -6,12 +6,12 @@ export const config = {
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://proud-grass-0af552f00.azurestaticapps.net/"
+      ? "https://proud-grass-0af552f00.azurestaticapps.net"
       : "http://localhost:3000",
   headerLinks: [
     {
       title: "Company",
-      href: "https://ebilab.jp/",
+      href: "https://ebilab.jp",
     },
   ],
 };
