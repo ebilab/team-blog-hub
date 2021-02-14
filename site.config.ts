@@ -6,7 +6,7 @@ export const config = {
   },
   siteRoot:
     process.env.NODE_ENV === "production"
-      ? "https://team-blog-hub.vercel.app"
+      ? "https://proud-grass-0af552f00.azurestaticapps.net/"
       : "http://localhost:3000",
   headerLinks: [
     {
